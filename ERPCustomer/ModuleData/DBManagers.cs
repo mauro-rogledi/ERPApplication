@@ -15,7 +15,7 @@ internal class DBManagerCustomer : DBManager
         : base(name, document)
     { }
 
-    protected override string CreateMasterQuery(ref List<SqlABParameter> dParam)
+    protected override string CreateMasterQuery(ref List<SqlProxyParameter> dParam)
     {
         var qB = new QueryBuilder();
 
@@ -24,11 +24,11 @@ internal class DBManagerCustomer : DBManager
             Query;
     }
 
-    protected override List<SqlABParameter> CreateMasterParam()
+    protected override List<SqlProxyParameter> CreateMasterParam()
     {
-        var PList = new List<SqlABParameter>();
+        var PList = new List<SqlProxyParameter>();
 
-        var sParam1 = new SqlABParameter("@p1", CustomerTable.ID) { Value = CustomerTable.ID.DefaultValue };
+        var sParam1 = new SqlProxyParameter("@p1", CustomerTable.ID) { Value = CustomerTable.ID.DefaultValue };
         PList.Add(sParam1);
         return PList;
     }
