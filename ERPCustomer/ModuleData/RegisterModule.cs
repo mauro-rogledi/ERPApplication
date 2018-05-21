@@ -2,7 +2,6 @@
 using ERPFramework.Data;
 using System;
 
-
 namespace ERPCustomer.ModuleData
 {
     internal class RegisterModule : ERPFramework.Data.RegisterModule
@@ -59,7 +58,7 @@ namespace ERPCustomer.ModuleData
         {
             if (dbVersion < 2)
             {
-                if (!SearchColumn(CustomerTable.Email))
+                if (!SqlProxyDatabaseHelper.SearchColumn(CustomerTable.Email, GlobalInfo.SqlConnection))
                 {
                     SqlCreateTable.AlterTable<CustomerTable>();
                     SqlCreateTable.AddColumn(CustomerTable.Email);
