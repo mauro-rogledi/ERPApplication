@@ -101,4 +101,7 @@
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(SolutionDir)applicationConfig.xml" ..\</PostBuildEvent>
+  </PropertyGroup>
 </Project>
