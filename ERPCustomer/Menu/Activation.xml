@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <modules>
-  <module name="ERPCustomer" code="ERPC" serialType="TRIAL,EXPIRATION_DATE" expirationDate="31/12/2018">
+  <module name="ERP Customer" namespace="ERPCustomer" code="ERPC" serialType="TRIAL,EXPIRATION_DATE" expirationDate="31/12/2018">
     <functionality>MultiStorages</functionality>
   </module>
 </modules>

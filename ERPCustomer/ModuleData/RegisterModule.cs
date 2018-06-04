@@ -6,11 +6,6 @@ namespace ERPCustomer.ModuleData
 {
     internal class RegisterModule : ERPFramework.Data.RegisterModule
     {
-        public override string Application()
-        {
-            return "ERPA";
-        }
-
         public override string Module()
         {
             return "ERPC";
