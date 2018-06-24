@@ -68,6 +68,7 @@
     </Compile>
     <Compile Include="Lens.cs" />
     <Compile Include="ModuleData\DBManagers.cs" />
+    <Compile Include="ModuleData\DBRadar.cs" />
     <Compile Include="ModuleData\DBTables.cs" />
     <Compile Include="ModuleData\RegisterModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
