@@ -27,7 +27,7 @@ namespace ERPCustomer.ModuleData
         public override void RegisterCountersAndCodes()
         {
             //GlobalInfo.AddCounter(Counters.Descriptions.Int(), Properties.Resources.CN_Descriptions);
-            //GlobalInfo.AddCounter(Counters.Masters.Int(), Properties.Resources.CN_Masters);
+            GlobalInfo.AddCounter(Counters.Masters.Int(), Properties.Resources.CN_Customer);
         }
 
         public override void Addon(ERPFramework.Forms.IDocument frm, ERPFramework.NameSpace nameSpace)

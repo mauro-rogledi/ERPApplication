@@ -118,12 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CN_Customer" xml:space="preserve">
-    <value>Customer</value>
-  </data>
-  <data name="T_Description" xml:space="preserve">
-    <value>Description</value>
-  </data>
-  <data name="T_ID" xml:space="preserve">
-    <value>ID</value>
+    <value>Clienti</value>
   </data>
 </root>

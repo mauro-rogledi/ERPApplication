@@ -61,6 +61,15 @@ namespace ERPCustomer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Customer.
+        /// </summary>
+        internal static string CN_Customer {
+            get {
+                return ResourceManager.GetString("CN_Customer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Description.
         /// </summary>
         internal static string T_Description {
